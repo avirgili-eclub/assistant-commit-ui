@@ -1,0 +1,36 @@
+name: assitant_commit_ui
+description: "A Git commit message generator using OpenAI"
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.29.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  bitsdojo_window: ^0.1.5
+  tray_manager: ^0.5.0
+  window_manager: ^0.3.7
+  process_run: ^0.13.1
+  http: ^1.1.0
+  file_picker: ^6.1.1
+  path: ^1.8.3
+  path_provider: ^2.0.15
+  flutter_markdown: ^0.6.18
+  provider: ^6.0.5
+  shared_preferences: ^2.2.2
+  msix: ^3.16.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/app_icon.png
+    - assets/icons/tray_icon.png
