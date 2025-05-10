@@ -54,4 +54,4 @@ Una clave API de OpenAI
     - Material Design
 
 ## Licencia
-Este proyecto está licenciado bajo la Licencia MIT - vea el archivo [LICENSE](https://github.com/avirgili-eclub/assistant-commit-ui/master/LICENSE) para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT - vea el archivo [LICENSE](https://raw.githubusercontent.com/avirgili-eclub/assistant-commit-ui/refs/heads/master/LICENSE) para más detalles.
