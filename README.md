@@ -13,6 +13,33 @@ Funciona como aplicación de escritorio independiente
 Soporte para minimizarse a la bandeja del sistema
 Compatible con múltiples plataformas (Windows, macOS, Linux)
 
+## Componentes claves
+
+### User Interface Layer
+La capa de UI está compuesta por widgets de Flutter que proporcionan user-facing interface para interactuar con la aplicación.
+
+- **CommitAssistantApp** : El root widget de la aplicación que inicializa la app y gestiona las ventanas.
+- **HomeScreen** : La interfaz principal donde los usuarios ingresan claves API, seleccionan repositorios y generan mensajes de commit.
+
+### Service Layer
+La capa de servicios contiene clases especializadas que manejan las interacciones con sistemas externos:
+
+- **GitService**: Interactúa con repositorios Git para analizar cambios en etapa(staged), obtener diferencias (diffs) y contenidos de archivos.
+- **OpenAIService**: Se comunica con la API de OpenAI para generar mensajes de commit.
+- **TrayService**: Gestiona la integración con la bandeja del sistema para operaciones en segundo plano.
+
+### State Management
+La aplicación utiliza el patrón Provider para gestionar el estado de la aplicación:
+
+- **AppState**: Mantiene el estado global de la aplicación, incluyendo claves API, rutas de repositorios, mensajes de commit generados y estados de carga.
+
+### External Systems
+La aplicación interactúa con varios sistemas externos:
+
+- **Repositorio Git**: Repositorios de código fuente gestionados por Git.
+- **API de AI**: Servicio de inteligencia artificial utilizado para generar mensajes de commit.
+- **Bandeja del Sistema**: Área de notificaciones del sistema operativo para acceso a la aplicación en segundo plano.
+
 ## Requisitos previos
 - Flutter SDK (v3.29.2 o superior)
 - Git instalado en el sistema
