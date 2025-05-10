@@ -14,9 +14,9 @@ Soporte para minimizarse a la bandeja del sistema
 Compatible con múltiples plataformas (Windows, macOS, Linux)
 
 ## Requisitos previos
-Flutter SDK (v3.29.2 o superior)
-Git instalado en el sistema
-Una clave API de OpenAI
+- Flutter SDK (v3.29.2 o superior)
+- Git instalado en el sistema
+- Una clave API de OpenAI
 
 ## Instalación
 
@@ -48,10 +48,10 @@ Una clave API de OpenAI
 
 ## Tecnologías utilizadas
 
-    - Flutter
-    - OpenAI API (gpt-4o-mini)
-    - Git
-    - Material Design
+- Flutter
+- OpenAI API (gpt-4o-mini)
+- Git
+- Material Design
 
 ## Licencia
 Este proyecto está licenciado bajo la Licencia MIT - vea el archivo [LICENSE](https://raw.githubusercontent.com/avirgili-eclub/assistant-commit-ui/refs/heads/master/LICENSE) para más detalles.
